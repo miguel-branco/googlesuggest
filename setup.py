@@ -5,6 +5,7 @@ setup(
     version='0.0.0',
     author=u'Miguel Branco',
     author_email='miguel.branco@epfl.ch',
+    py_modules=['googlesuggest'],
     install_requires = [
         'psycopg2==2.5.2',
         'boto==2.27.0'
